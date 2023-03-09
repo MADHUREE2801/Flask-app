@@ -5,4 +5,5 @@ set -o errexit
 pip install --upgrade pip
 pip install -r requirements.txt
 python3 -m pip install --upgrade pip
-pip install gunicorn==20.1.0
+pip3 install psycopg2 gunicorn 
+pip3 freeze > requirements.txt
